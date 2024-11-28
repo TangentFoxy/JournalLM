@@ -2,7 +2,7 @@
 
 local success, utility = pcall(function()
   -- return dofile((arg[0]:match("@?(.*/)") or arg[0]:match("@?(.*\\)")) .. "utility-functions.lua")
-  return dofile("C:\Users\Public\.lua-files\utility-functions.lua")
+  return dofile("C:\\Users\\Public\\.lua-files\\utility-functions.lua")
 end)
 if not success then
   print("\n\n" .. tostring(utility) .. "\n\n")
