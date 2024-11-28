@@ -6,11 +6,21 @@
     <description>I can't believe I'm doing this. Random journals + NotebookLM "podcasts" = this slop.</description>
     <itunes:image>https://tangentfoxy.github.io/JournalLM/podcast-image1400.jpg</itunes:image>
     <item>
+      <title>The Dangers of AI</title>
+      <link>https://tangentfoxy.github.io/JournalLM/The%20Dangers%20of%20AI.html</link>
+      <description>These journal entries document the author's experiences with Obsidian, a note-taking application. The entries detail troubleshooting synchronization issues across multiple devices (desktop, iPhone, iPad), including problems with plugins and automatic syncing. The author also reflects on content creation plans, such as a YouTube video, and mentions reading and Minecraft gameplay. Furthermore, concerns about data security related to GitHub syncing are expressed, along with plans for improved note-taking on specific topics. Finally, the author consistently tracks daily tasks and plans in their journal.</description>
+      <enclosure length="8591493" type="audio/mpeg" url="https://tangentfoxy.github.io/JournalLM/The%20Dangers%20of%20AI.mp3" />
+      <pubDate>Thu, 28 Nov 2024 15:40 MST</pubDate>
+      <itunes:duration>827</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:image>https://tangentfoxy.github.io/JournalLM/The%20Dangers%20of%20AI.jpg</itunes:image>
+    </item>
+    <item>
       <title>2024 Year-End Review &amp; Plans</title>
       <link>https://tangentfoxy.github.io/JournalLM/2024%20Year-End%20Review%20%26%20Plans.html</link>
       <description>These journal entries from November 2023 and January 2024 document the author's daily life, including media consumption (YouTube videos and a film), personal projects (creating custom Magic: The Gathering cards and a technology dependency chart), and self-improvement goals (tracking steps and writing weekly, monthly, and yearly reviews). The entries reveal struggles with maintaining a consistent review schedule and lapses in self-care, along with plans for future tasks and technology-related projects within a Minecraft world. The author also notes missing information and expresses concern about several self-care tasks. The entries show a blend of personal reflections and practical to-do lists.</description>
       <enclosure length="5999693" type="audio/mpeg" url="https://tangentfoxy.github.io/JournalLM/2024%20Year-End%20Review%20%26%20Plans.mp3" />
-      <pubDate>Wed, 28 Nov 2024 00:00 MST</pubDate>
+      <pubDate>Wed, 27 Nov 2024 00:00 MST</pubDate>
       <itunes:duration>574</itunes:duration>
       <itunes:episode>2</itunes:episode>
       <itunes:image>https://tangentfoxy.github.io/JournalLM/2024%20Year-End%20Review%20%26%20Plans.jpg</itunes:image>
