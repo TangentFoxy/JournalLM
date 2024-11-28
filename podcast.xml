@@ -5,6 +5,7 @@
     <link>https://github.com/TangentFoxy/JournalLM/</link>
     <description>I can't believe I'm doing this. Random journals + NotebookLM "podcasts" = this slop.</description>
     <itunes:image>https://tangentfoxy.github.io/JournalLM/podcast.jpg</itunes:image>
+    <itunes:new-feed-url>https://tangentfoxy.github.io/JournalLM/feed13.xml</itunes:new-feed-url>
     <item>
       <title>2024 Year-End Review &amp; Plans</title>
       <link>https://tangentfoxy.github.io/JournalLM/2024%20Year-End%20Review%20%26%20Plans.html</link>
