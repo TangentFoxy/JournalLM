@@ -1,1 +1,2 @@
 secret-journal/*
+!secret-journal/pull-3-random-journals.lua
