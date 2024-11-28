@@ -8,3 +8,5 @@ Reminding myself of some of the dumb tools I've used:
 - https://notebooklm.google.com/
 - https://www.urlencoder.org
 - https://perchance.org/ai-photo-generator
+
+I've also used Audacity, Mp3tag, GIMP, Pulsar..
