@@ -11,7 +11,7 @@ end
 
 math.randomseed(os.time())
 local items = {}
-utility.ls(".")(function(file_name)
+utility.ls("secret-journal")(function(file_name)
   items[#items + 1] = file_name
 end)
 
@@ -23,5 +23,5 @@ end
 
 for _, item in ipairs(results) do
   print(item)
-  os.execute("mv " .. item:enquote() .. " upload/")
+  os.execute("mv " .. ("secret-journal/" .. item):enquote() .. " upload/")
 end
