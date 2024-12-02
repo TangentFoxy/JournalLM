@@ -6,7 +6,7 @@
     <description>I can't believe I'm doing this. Random journals + NotebookLM "podcasts" = this slop.</description>
     <itunes:image href="https://tangentfoxy.github.io/JournalLM/podcast-image1400.jpg" />
     <itunes:explicit>false</itunes:explicit>
-    <itunes:category text="Personal Journals" />
+    <itunes:category text="Society &amp; Culture"> <itunes:category text="Personal Journals" /></itunes:category>
     <language>en</language>
     <item>
       <title>Daily To-Do List &amp; Ideas</title>
