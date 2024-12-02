@@ -8,15 +8,15 @@
     <itunes:image href="https://tangentfoxy.github.io/JournalLM/podcast.jpg" />
     
       
+        <itunes:category text="Technology" />
+      
+    
+      
         <itunes:category text="Society &amp; Culture">
         
           <itunes:category text="Personal Journals" />
         
         </itunes:category>
-      
-    
-      
-        <itunes:category text="Technology" />
       
     
     <itunes:explicit>false</itunes:explicit>
@@ -135,6 +135,31 @@
           <itunes:duration>160</itunes:duration>
           <itunes:episode>5</itunes:episode>
           <itunes:image href="https://tangentfoxy.github.io/JournalLM/Daily%20To-Do%20List%20%26%20Ideas.jpg" />
+        </item>
+      
+        
+        <item>
+          <title>Llama 2 Experiments and Daily Notes</title>
+          <link>https://tangentfoxy.github.io/JournalLM/Llama%202%20Experiments%20and%20Daily%20Notes.html</link>
+          <description><![CDATA[
+<p><strong>Prompt</strong>: Relate everything to oranges or the color orange.</p>
+
+<p><strong>NotebookLM Summary</strong>:</p>
+
+<p>(It failed to generate one this time. I don't see any options to tell it to try again after the initial load.)</p>
+
+<p><strong>My Response</strong>: I initially tried without a silly prompt, but it was <em>sooo</em> misleading, boring, and long.</p>
+
+<p>The "Prius aircraft" bit is referencing a video. Unfortunately, its creator decided to delete it, so I can't link to it. <br/>
+The "video about sinkholes" idea is <em>not</em> a video about sinkholes..</p>
+
+]]></description>
+          <enclosure length="3688935" type="audio/mpeg" url="https://tangentfoxy.github.io/JournalLM/Llama%202%20Experiments%20and%20Daily%20Notes.mp3" />
+          <pubDate>Mon, 02 Dec 2024 07:53:36 GMT</pubDate>
+          <guid>132947d3-35a6-4e23-9727-030219a9aac3</guid>
+          <itunes:duration>346</itunes:duration>
+          <itunes:episode>6</itunes:episode>
+          <itunes:image href="https://tangentfoxy.github.io/JournalLM/Llama%202%20Experiments%20and%20Daily%20Notes.jpg" />
         </item>
       
     

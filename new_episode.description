@@ -1,5 +1,10 @@
-**Prompt**: The hosts must rhyme every sentence.
+**Prompt**: Relate everything to oranges or the color orange.
 
-**NotebookLM Summary**: These journal entries span several months and document the author's creative writing ideas, daily tasks and health management. One entry details a science fiction story concept involving plural systems and a conscious planet. Another focuses on daily to-do lists, including personal errands and medication reminders. A third entry combines personal care routines with tasks related to programming, health testing, and car maintenance, along with musings on video games and creative projects, showcasing the author's diverse interests and attention shifts. The entries reveal a mind actively engaged in multiple pursuits and reflections, revealing their daily struggles and plans.
+**NotebookLM Summary**:
 
-**My Response**: Well, it is able to follow *some* instructions..
+(It failed to generate one this time. I don't see any options to tell it to try again after the initial load.)
+
+**My Response**: I initially tried without a silly prompt, but it was *sooo* misleading, boring, and long.
+
+The "Prius aircraft" bit is referencing a video. Unfortunately, its creator decided to delete it, so I can't link to it.  
+The "video about sinkholes" idea is *not* a video about sinkholes..
