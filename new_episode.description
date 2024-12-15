@@ -1,10 +1,7 @@
-**Prompt**: Relate everything to oranges or the color orange.
+**Prompt**: The name of your podcast is JournalLM. You have an editor fixing mistakes. Do not include ums and uhs.
 
-**NotebookLM Summary**:
+**NotebookLM Summary**: The first source is a personal journal entry reflecting on biases in the author's education and information consumption, particularly concerning YouTube content and the perceived shortcomings of certain educational figures and capitalist systems. The author expresses a desire to broaden perspectives and improve critical thinking, citing examples of misleading marketing and questionable product endorsements. The second source details a daily journal entry focusing on the author's personal schedule, including meals and tasks, as well as noting reflections on broader topics such as generational changes, technological progress, and software synchronization issues. Both entries highlight a self-aware individual reflecting on their daily life and learning experiences.
 
-(It failed to generate one this time. I don't see any options to tell it to try again after the initial load.)
+**My Response**: I'll have to try being more angry about making it use the "correct" name. God this is *boring*, and only *slightly* misleading, but still misleading.
 
-**My Response**: I initially tried without a silly prompt, but it was *sooo* misleading, boring, and long.
-
-The "Prius aircraft" bit is referencing a video. Unfortunately, its creator decided to delete it, so I can't link to it.  
-The "video about sinkholes" idea is *not* a video about sinkholes..
+I am actually working on a book about writing. (Systems thinking is important.)
