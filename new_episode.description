@@ -1,7 +1,9 @@
-**Prompt**: The name of your podcast is JournalLM. You have an editor fixing mistakes. Do not include ums and uhs.
+**Prompt**: Introduce your podcast as "JournalLM". This is essential. The intro is very important. You also have an editor removing all ums and uhs, so they shouldn't be in the output. Make sure you conclude with a short story about hybrid vehicles in racing.
 
-**NotebookLM Summary**: The first source is a personal journal entry reflecting on biases in the author's education and information consumption, particularly concerning YouTube content and the perceived shortcomings of certain educational figures and capitalist systems. The author expresses a desire to broaden perspectives and improve critical thinking, citing examples of misleading marketing and questionable product endorsements. The second source details a daily journal entry focusing on the author's personal schedule, including meals and tasks, as well as noting reflections on broader topics such as generational changes, technological progress, and software synchronization issues. Both entries highlight a self-aware individual reflecting on their daily life and learning experiences.
+**NotebookLM Summary**: This journal entry documents the author's progress on several projects. A datapack for the game ComputerCraft was successfully created, based on existing modifications. The author also notes ongoing work editing and tagging NSFW furry artwork, referencing specific artists. Finally, the author considers developing a random Minecraft build idea generator, ultimately deciding against rigid categorization for now.
 
-**My Response**: I'll have to try being more angry about making it use the "correct" name. God this is *boring*, and only *slightly* misleading, but still misleading.
+**My Response**: 🎉 I can't believe it actually follow the introduction instruction! 🎉
 
-I am actually working on a book about writing. (Systems thinking is important.)
+- Resale value is a stupid metric to consider when buying a vehicle, because you should *use* the vehicle, not try to make a profit off of it.
+- The video mentioned is *actually* titled [Hack your brain with Obsidian.md](https://youtube.com/watch?v=DbsAQSIKQXk) by No Boilerplate.
+- The "respect their privacy" bit is talking about organizing smut.
