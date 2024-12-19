@@ -10,15 +10,15 @@
   <itunes:image href="https://tangentfoxy.github.io/JournalLM/podcast.jpg" />
   
     
-      <itunes:category text="Technology" />
-    
-  
-    
       <itunes:category text="Society &amp; Culture">
       
         <itunes:category text="Personal Journals" />
       
       </itunes:category>
+    
+  
+    
+      <itunes:category text="Technology" />
     
   
   <itunes:explicit>false</itunes:explicit>
