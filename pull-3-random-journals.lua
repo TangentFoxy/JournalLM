@@ -1,15 +1,8 @@
 #!/usr/bin/env luajit
 
-local success, utility = pcall(function()
-  -- return dofile((arg[0]:match("@?(.*/)") or arg[0]:match("@?(.*\\)")) .. "utility-functions.lua")
-  return dofile("C:\\Users\\Public\\.lua-files\\utility-functions.lua")
-end)
-if not success then
-  print("\n\n" .. tostring(utility) .. "\n\n")
-  error()
-end
+package.path = (arg[0]:match("@?(.*/)") or arg[0]:match("@?(.*\\)")) .. "lib" .. package.config:sub(1, 1) .. "?.lua;" .. package.path
+local utility = require "utility"
 
-math.randomseed(os.time())
 local items = {}
 utility.ls("secret-journal")(function(file_name)
   items[#items + 1] = file_name

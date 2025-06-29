@@ -10,3 +10,10 @@ Reminding myself of some of the dumb tools I've used:
 - https://www.fakenamegenerator.com
 
 I've also used Audacity, Mp3tag, GIMP, Pulsar..
+
+---
+
+Reminding myself: `secret-journal` is the ignored directory where I put
+everything, and `upload` is the ignored directory where 3 items will be randomly
+pulled. (I do this to make sure I censor anything I need to for personal safety
+before uploading.)
