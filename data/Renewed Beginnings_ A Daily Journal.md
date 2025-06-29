@@ -14,7 +14,7 @@ The notes on phone battery life are because an update was pushed that completely
 
 Preventing you from installing an OS on a phone really should be illegal. It's fucked up that they can just *stop* that.
 
-- [Noctis (wikipedia)](https://en.wikipedia.org/wiki/Noctis_(video_game) ), [Noctis IV (archive.org download)](https://archive.org/details/msdos_noctis_shareware)
+- [Noctis (Wikipedia)](https://en.wikipedia.org/wiki/Noctis_(video_game) "Noctis on Wikipedia"), [Noctis IV (archive.org download)](https://archive.org/details/msdos_noctis_shareware)
 - [Moonfall (2022 film)](https://moonfall.movie/) is a fun movie, despite some *really stupid* aspects.
 
 **Image Prompt**: first-person visual exploration of the fictional Feltyrion galaxy
