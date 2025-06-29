@@ -1,16 +1,17 @@
 {
+  "timezone_offset":-7,
+  "next_episode_number":10,
   "base_url":"https://tangentfoxy.github.io/JournalLM/",
+  "description":"<p>I decided to see what NotebookLM's podcasts feature would do when presented with 3 randomly chosen journal entries from 499 digitized entries spanning from 2011 to early November 2024. It was entertaining enough to share the results, and add some notes on it. (Most of the source entries are from 2022 and 2023, with barely any notes existing from before 2019.)</p>\n\n<p>Most generated artwork when I don't specify the prompt was created using the NotebookLM summary. Some of the early episodes were created with different generators and prompts without keeping track, so I can't give specifics there.</p>",
   "categories":{
+    "Technology":true,
     "Society & Culture":{
       "Personal Journals":true
-    },
-    "Technology":true
+    }
   },
-  "language":"en",
-  "next_episode_number":9,
   "published_episodes":[{
-      "title":"Daily Notes: April 5, 2024",
-      "file_name":"Daily Notes; April 5, 2024"
+      "file_name":"Daily Notes; April 5, 2024",
+      "title":"Daily Notes: April 5, 2024"
     },{
       "title":"2024 Year-End Review & Plans"
     },{
@@ -24,11 +25,13 @@
     },{
       "title":"Combating Bias in Education and Consumption"
     },{
-      "title":"Daily Development Log: September 16, 2023",
-      "file_name":"Daily Development Log_ September 16, 2023"
+      "file_name":"Daily Development Log_ September 16, 2023",
+      "title":"Daily Development Log: September 16, 2023"
+    },{
+      "file_name":"Renewed Beginnings_ A Daily Journal",
+      "title":"😭 Renewed Beginnings: A Daily Journal"
     }],
-  "description":"<p>I decided to see what NotebookLM's podcasts feature would do when presented with 3 randomly chosen journal entries from 499 digitized entries spanning from 2011 to early November 2024. It was entertaining enough to share the results, and add some notes on it. (Most of the source entries are from 2022 and 2023, with barely any notes existing from before 2019.)</p>\n\n<p>Most generated artwork when I don't specify the prompt was created using the NotebookLM summary. Some of the early episodes were created with different generators and prompts without keeping track, so I can't give specifics there.</p>",
-  "timezone_offset":-7,
   "title":"JournalLM",
-  "explicit":false
+  "explicit":false,
+  "language":"en"
 }

@@ -35,10 +35,8 @@ end
 
 
 
+utility.required_program("ffmpeg")
 utility.required_program("ffprobe")
-if utility.OS == "Windows" then
-  utility.required_program("mp3tag")
-end
 
 local podcast = {}
 
@@ -118,7 +116,9 @@ local function new_episode(episode_title, file_name, skip)
   assert(not utility.is_file("data/" .. file_name .. ".json"), "An episode with that title or file name already exists.")
   if not utility.is_file(file_name .. ".mp3") then
     local _, _, extension = utility.split_path_components(file_name)
-    file_name = file_name:sub(1, -(#extension+2))
+    if extension then
+      file_name = file_name:sub(1, -(#extension+2))
+    end
   end
   assert(not utility.is_file("data/" .. file_name .. ".json"), "An episode with that title or file name already exists.")
   assert(utility.is_file(file_name .. ".mp3"), "An MP3 must be placed in the same directory as this script first. Its name should be the title or specified manually when different!")
@@ -147,9 +147,14 @@ local function new_episode(episode_title, file_name, skip)
     end
   end
 
+  if not utility.is_file(episode.file_name .. ".jpg") then
+    os.execute("cp docs/podcast.jpg " .. (episode.file_name .. ".jpg"):enquote())
+  end
+
   if not options.skip.mp3tag then
-    print("Opening mp3tag to add episode artwork.\n  (This step must be completed manually, and then podcast.lua must be called again to finish this episode!)")
-    os.execute("mp3tag /fn:" .. (episode.file_name .. ".mp3"):enquote())
+    print("Adding artwork to MP3 file..")
+    os.execute("ffmpeg -i " .. (episode.file_name .. ".mp3"):enquote() .. " -i " .. (episode.file_name .. ".jpg"):enquote() .. " -map_metadata 0 -map 0 -map 1 -acodec copy " .. (utility.temp_directory .. episode.file_name .. ".mp3"):enquote())
+    os.execute("mv -f " .. (utility.temp_directory .. episode.file_name .. ".mp3"):enquote() .. " ./")
   end
 
   podcast.save_episode(episode)
@@ -267,6 +272,10 @@ local function publish_episode(episode_title_or_file, options)
     database.published_episodes[episode_number].file_name = episode.file_name
   end
 
+  -- these have to be saved before generators are called or the generators fail
+  save_database(database)
+  podcast.save_episode(episode)
+
   -- NOTE I want to allow truncated summaries
 
   -- TODO in the future, don't recompile the ENTIRE thing just for adding an episode
@@ -286,7 +295,6 @@ local function publish_episode(episode_title_or_file, options)
   end
 
   save_database(database)
-  podcast.save_episode(episode)
 
   if not options.no_git then
     os.execute("git add *")
